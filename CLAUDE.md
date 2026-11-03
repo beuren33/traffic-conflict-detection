@@ -11,4 +11,5 @@ Leia SÓ [docs/INDEX.md](docs/INDEX.md) e [docs/STATE.md](docs/STATE.md) no iní
 - Fim da sessão: reescrever [docs/STATE.md](docs/STATE.md) (fase, próximo passo, bloqueios).
 - Split sempre por vídeo, nunca por quadro. Teste lacrado: não abrir antes da hora ([docs/conventions.md](docs/conventions.md)).
 - Execução pesada roda no Colab; repo guarda só código e .md ([docs/colab.md](docs/colab.md)).
+- Código só em `.ipynb` dentro de `src/` ([ADR 0008](docs/decisions/0008-somente-notebooks.md)): nunca ler o notebook inteiro, só células de código necessárias; limpar saídas antes de salvar, exceto EDA e avaliação.
 - Antes de afirmar nome de peso/versão do Ultralytics, conferir na documentação.

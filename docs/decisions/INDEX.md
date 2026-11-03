@@ -11,3 +11,4 @@ Uma linha por ADR. Decisões pequenas vão em [../LOG.md](../LOG.md). Novo ADR: 
 | [0005](0005-ambiente-colab-drive.md) | Colab Pro, Drive, rclone, FPS separado | aceito |
 | [0006](0006-criterio-de-acerto.md) | Alerta válido = antecedência ≥ 1,0 s | aceito |
 | [0007](0007-registro-de-experimentos.md) | CSV + .md por run, sem MLflow | aceito |
+| [0008](0008-somente-notebooks.md) | Código 100% em notebooks por etapa | aceito (substitui parte do 0005) |
